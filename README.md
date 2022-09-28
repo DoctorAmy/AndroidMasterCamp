@@ -2,7 +2,7 @@
  AndroidMasterCamp
 
 # 封装Okhttp
-##1.配置依赖  implementation("com.squareup.okhttp3:okhttp:4.10.0")
+#1.配置依赖  implementation("com.squareup.okhttp3:okhttp:4.10.0")
 
 #2.网络请求需要设置权限:权限的位置在application上方
     <uses-permission android:name="android.permission.INTERNET"/> // 允许应用程序打开网络Socket的权限
