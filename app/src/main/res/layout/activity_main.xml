@@ -5,10 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <Button
+        android:id="@+id/getbtn"
+        android:layout_height="30pt"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Get"
+        />
+    <Button
+        android:id="@+id/postbtn"
+        android:layout_height="30pt"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:text="Post"
+        />
+    </LinearLayout >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="69dp"
+        android:layout_height="41dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
